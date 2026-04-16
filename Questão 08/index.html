@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/global.css">
+    <title>Questão 08</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Verificar Formulário</h1>
+
+        <p class="enunciado">
+            Crie um formulário com os campos nome e e-mail e um botão de submit. Verifique se o
+            nome e o e-mail estão vazios quando o usuário deixar os campos. Caso os campos estejam vazios,
+            adicionar uma borda vermelha ao redor dos campos, indicando erro.
+        </p>
+
+        <div class="funcionalidade">
+            <label for="nomeUsuario">Digite o seu nome:</label>
+            <input type="text" id="nomeUsuario" onblur="verificarFormulario()">
+
+            <label for="emailUsuario">Digite o seu E-mail:</label>
+            <input type="email" id="emailUsuario" onblur="verificarFormulario()">
+
+            <button class="verificar" onclick="verificarFormulario()">Concluir</button>
+        </div>
+
+        <div class="res" id="res">
+        </div>
+
+        <a href="../Principal/index.html" class="voltar"> Voltar</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

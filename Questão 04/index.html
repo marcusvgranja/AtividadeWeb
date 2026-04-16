@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilo/global.css">
+    <title>Questão 04</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tradutor de Cores</h1>
+
+        <p class="enunciado">
+            Crie um programa que solicite ao usuário o nome de uma cor em inglês e, em seguida, use
+            um switch case para traduzir essa cor para outra língua. Por exemplo, se o usuário inserir "red," o
+            programa deve traduzir para "vermelho." Adicione algumas cores padrões e se a cor não for
+            identificada, imprimir a mensagem “Cor desconhecida”.
+        </p>
+
+        <div class="funcionalidade">
+            <label for="encontracor">Digite uma cor em inglês para retornar sua tradução: </label>
+            <input type="text" id="encontracor">
+            <button class="verificar" onclick="EncontrarCor()">Encontrar cor</button>
+        </div>
+
+        <div class="res" id="res">
+        </div>
+
+        <a href="../Principal/index.html" class="voltar"> Voltar</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

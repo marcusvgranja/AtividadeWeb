@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(163, 136, 251);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.questao {
+    border-radius: 10px;
+    width: 100px;
+    height: 75px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: #a497cf;
+    color: white;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.questao:hover {
+    background-color: rgb(120, 90, 220);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10 rgba(0, 0, 0, 0.3);
+}
